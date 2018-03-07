@@ -37,15 +37,10 @@ h6 {
 }
 
 input {
-  color: $blue-color;
-  border-color: $green-color;
   background-color: lighten($blue-color, 50%);
-  font-size: $font-base-size;
-  font-family: $serif-fonts;
-  border-radius: $border-radius;
 }
 
-textarea {
+input, textarea {
   color: $blue-color;
   border-color: $green-color;
   font-size: $font-base-size;
